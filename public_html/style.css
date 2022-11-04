@@ -211,6 +211,7 @@ section .titulo, .subtitulo{
     transition: all .7s ease-in-out;
 }
 .slide img {
+    border-radius: 15px;
     width: 100%;
     height: 100%;
 }
