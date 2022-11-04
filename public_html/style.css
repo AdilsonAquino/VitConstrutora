@@ -74,6 +74,16 @@ a{
 }
 
 
+/*CONFIGURANDO SERVICOS*/
+.tituloServicos{
+    font-family: 'Roboto', sans-serif;
+    color: #B52931;
+    font-size: 2em;
+    border-bottom: 3px #B52931 solid;
+    max-width: 10%;
+    margin: 0.5em auto;
+}
+
 
 
 
@@ -169,7 +179,36 @@ section .titulo, .subtitulo{
 .material-symbols-outlined{
     color: #B52931;
 }
-
+.texto-slider .titulo{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #B52931;
+    border-bottom: 3px #B52931 solid;
+    max-width: 30%;
+    margin: 0.5em auto;
+}
+.bloco-mapa iframe{
+    border: 1px #B52931 solid;
+    border-radius: 15px;
+}
+.tituloHistoria{
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 3px #B52931 solid;
+    max-width: 10%;
+    margin: 1.5em auto;
+}
+.historia .subtitulo{
+    font-size: 1.25em;
+    text-align: justify;
+}
+.bannerHistoria{
+    text-align: center;
+}
+.bannerHistoria img{
+    border-radius: 15px;
+    max-width: 40%;
+    margin: 1em;
+}
 
 
 
@@ -280,6 +319,85 @@ input#img-6:checked ~ .nav-dots label#img-dot-6,
 input#img-7:checked ~ .nav-dots label#img-dot-7 {
     background: rgba(0, 0, 0, 0.8);
 }
+
+
+
+/*CONFIGURANDO CONTATO*/
+form{
+    background-color: #F6F6F6;
+    max-width: 60%;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 12px;
+}
+.camp{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0.5em;
+}
+.camp label, textarea{
+    font-size: 1.25em;
+    font-family: 'Roboto', sans-serif;
+    flex: 1;
+}
+.caixa{
+    padding: 0.2em;
+    font-size: 1.25em;
+    border: 1px #000000 solid;
+    border-radius: 15px;
+    flex: 2;
+}
+.botao{
+    border: none;
+    font-size: 1.25em;
+    padding: 0.25em 0.5em;
+    background-color: white;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 5px 5px 8px black;
+}
+#alinharBotao{
+    text-align: center;
+}
+.input-class {
+  padding: 0.75em;
+  text-transform: uppercase;
+  width: 150px;
+  border: 1px solid #B52931;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  margin: 10px auto;
+  display: block;
+}
+.input-class:focus {
+  box-shadow: 0 0 5px #B52931;
+  width: 250px;
+}
+  
+.input-class::-webkit-input-placeholder {
+  color: #B52931;
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:500px){
     .slides {
         width: 400px;
@@ -290,3 +408,6 @@ input#img-7:checked ~ .nav-dots label#img-dot-7 {
         height: 276px;
     }
 }
+
+
+
