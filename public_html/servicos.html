@@ -9,14 +9,19 @@
     <body>
         <header id="topo">
             <div id="logo">
-                <a href="index.html">
                     <img src="imagens/logo.png" alt="logo" />
-                </a>
             </div>
             </div>
-            <div id="burger">
-                <i class="fa-solid fa-bars" onclick="clickMenu()"></i>
-            </div>
+            <div class="container-burger">
+                <input type="checkbox" id="checkbox-menu" onclick="clickMenu()">
+            
+                <label for="checkbox-menu">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </label>
+             
+              </div>
             
     
             <menu id="menuTopo">
@@ -197,7 +202,7 @@
 
 
 
-
+        <script type="text/javascript" src="js.js"></script>
         <script src="https://kit.fontawesome.com/a14821cae9.js" crossorigin="anonymous"></script>
     </body>
 </html>

@@ -1,7 +1,7 @@
 function clickMenu(){
-    if(menuTopo.style.display == 'none'){
-        menuTopo.style.display = 'block';
-    } else {
+    if(menuTopo.style.display == 'block'){
         menuTopo.style.display = 'none';
+    } else {
+        menuTopo.style.display = 'block';
     }
 }
