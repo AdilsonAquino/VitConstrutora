@@ -75,7 +75,12 @@ a {
 
 }
 
-
+/* CONFIGURANDO ICONES */
+.fa-instagram {
+    font-size: 1.5em;
+    color: #B52931;
+    margin: auto 1em;
+}
 
 
 
@@ -202,7 +207,7 @@ i {
 }
 
 .dados-contato {
-    margin: 1.25em 0em;
+    margin: 1em 0em;
     display: flex;
     align-items: center;
 }
@@ -516,6 +521,10 @@ textarea {
     opacity: 0.5;
 }
 
+.bloco-mapa .titulo{
+    display: none;
+}
+
 /* RESPONSIVO */
 @media (max-width:500px) {
     .slides {
@@ -536,14 +545,71 @@ textarea {
         width: 100%;
     }
 
+    iframe {
+        width: 500px;
+    }
+
     .container-contato {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
 
     }
 
     .bloco-contato {
         width: 100%;
         padding: 0em 0.5em;
+    }
+
+    .botao-contato {
+        margin-left: 0em;
+        margin: 1em auto;
+    }
+
+    .container-contato i {
+        margin-left: 0;
+    }
+
+    .subtitulo {
+        font-size: 1em;
+    }
+    .dados-contato {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-titulos .titulo{
+        max-width: 22%;
+    }
+    i{
+        margin: 0.1em;
+    }
+    .texto-slider .titulo{
+        max-width: 60%;
+    }
+    form{
+        max-width: 90%;
+    }
+    .bloco-mapa .titulo{
+        max-width: 27%;
+        margin: 0.5em auto;
+        display: block;
+    }
+    header{
+        flex-direction: column;
+    }
+    .servicos{
+        max-width: 34%;
+    }
+    .tituloContato{
+        max-width: 46%;
+    }
+    .tituloHistoria{
+        max-width: 35%;
+    }
+    #menuTopo{
+        margin-bottom: 1em;
+    }
+    .bannerHistoria img{
+        max-width: 90%;
     }
 }
